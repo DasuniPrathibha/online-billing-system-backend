@@ -16,5 +16,13 @@
     "mongoose": "^6.2.7",
     "node-datetime": "^2.1.2",
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DasuniPrathibha/online-billing-system-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DasuniPrathibha/online-billing-system-backend/issues"
+  },
+  "homepage": "https://github.com/DasuniPrathibha/online-billing-system-backend#readme"
 }

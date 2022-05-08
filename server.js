@@ -29,6 +29,10 @@ app.use("/bill", billRouter);
 app.use("/card", cardRouter);
 app.use("/profiles", serviceRouter);
 app.use("/expense", expenseRouter);
+const enquiriesRouter = require('./routes/enquiries');
+
+
+app.use('/enquiries', enquiriesRouter);
 
 //date
 var dateTime = require('node-datetime');

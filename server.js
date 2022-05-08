@@ -5,6 +5,7 @@ const cors = require("cors");
 
 const cardRouter = require("./routes/cards.js");
 const billRouter = require("./routes/bills.js");
+const serviceRouter = require("./routes/profiles.js");
 
 require("dotenv").config();
 
@@ -25,6 +26,7 @@ mongoose.connection.once('open', () => {
 
 app.use("/bill", billRouter);
 app.use("/card", cardRouter);
+app.use("/profiles", serviceRouter);
 
 //date
 var dateTime = require('node-datetime');
